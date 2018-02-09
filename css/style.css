@@ -1,0 +1,35 @@
+#container {
+  padding-left: 300px;
+}
+
+#content {
+  padding: 20px;
+}
+
+
+
+.bgcolor{
+	 background-color: #94c748;
+}
+
+.sconder{
+	display: none;
+}
+
+
+
+
+@media only screen and (min-width: 500px) {
+
+/* estas es la version que se vera en moviles*/  
+
+.viewmovil {
+  display: none;   !important;
+ }
+}
+
+@media only screen and (max-width: 499px) {
+.viewdesktop {
+  display: none;   !important;
+ }
+}
