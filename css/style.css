@@ -1,5 +1,6 @@
 #container {
-  padding-left: 300px;
+    padding-left: 21%;
+    padding-right: 1%;
 }
 
 #content {
@@ -32,4 +33,11 @@
 .viewdesktop {
   display: none;   !important;
  }
+}
+
+
+.nombreson{
+
+	font-size: 12px;
+	margin: 2px 2px 2px;
 }
