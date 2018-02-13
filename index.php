@@ -120,6 +120,7 @@
       <li class="thin"><a href="#test4">Agregar Hijo</a></li>
       <li class="thin"><a href="#test5">Crear Menus</a></li>
        <li class="thin"><a href="#test6">Agregar Colegio</a></li>
+       <li class="thin"><a href="#test7">Pedidos</a></li>
     </ul>
   </div>
 
@@ -319,18 +320,114 @@
 <!--
 ======================================================================
 ==                                                                  ==
-==           AQUI INICIA LA SECCION DE REGISTRO MENU                ==
+==          AQUI INICIA LA SECCION DE AGREGAR COLEGIO               ==
 ==                                                                  ==
 ======================================================================
 -->
 
-
-
-
-
   <div id="test6" style="display: none;">Agregar Colegio</div>
+<!--
+======================================================================
+==                                                                  ==
+==           AQUI INICIA LA SECCION DE AGREGAR COLEGIO              ==
+==                                                                  ==
+======================================================================
+-->
+
+<!--
+======================================================================
+==                                                                  ==
+==           AQUI INICIA LA SECCION DE CONSULTA PEDIDOS             ==
+==                                                                  ==
+======================================================================
+-->
+
+<div id="test7" style="display: none;">
+    
+
+<H1>PEDIDOS</H1>
+  <div class="row" style="" align="right">
+    <form action="">
+      <div class="input-field col s1 m3 l3">
+        <select>
+          <option value="" disabled selected>Elegir Colegio</option>
+          <option value="">Aqui va Colegio</option>
+        </select>
+      </div>
+      <div class="input-field col s1 m3 l3">
+        <select>
+          <option value="" disabled selected>Elegir Grado</option>
+          <option value="">Aqui Va los Grados</option>
+        </select>
+      </div>
+      <div class="input-field col s1 m3 l3">
+        <select>
+          <option value="" disabled selected>Elegir Menu</option>
+          <option value="">Aqui va Menus</option>
+        </select>
+      </div>
+      <div class="input-field col s1 m3 l3">
+          <label for="textarea1">Desde</label>
+          <input type="text" class="datepicker">
+      </div>
+          <input type="submit" name="submit" id="submit" class="btn" value="Consultar">
+    </form>  
+  </div>
 
 
+<h1>SU CONSULTA</h1>
+<p class="thin">Para la Fecha: 18/02/2018</p>
+
+
+      <table class="responsive-table container centered">
+        <thead>
+          <tr>
+              <th>Colegio</th>
+              <th>Grado</th>
+              <th>Menu</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Colegio ST</td>
+            <td>1º</td>
+            <td>Lomo saltado</td>
+          </tr>
+          <tr>
+            <td>Colegio ST</td>
+            <td>1º</td>
+            <td>Lomo saltado</td>
+          </tr>
+          <tr>
+            <td>Colegio ST</td>
+            <td>1º</td>
+            <td>Lomo saltado</td>
+          </tr>
+           <tr>
+            <td>Colegio ST</td>
+            <td>1º</td>
+            <td>Lomo saltado</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+
+
+</div>
+
+<!--
+======================================================================
+==                                                                  ==
+==           AQUI INICIA LA SECCION DE CONSULTA PEDIDOS             ==
+==                                                                  ==
+======================================================================
+-->
 
 
 
@@ -349,6 +446,8 @@
 
                 <script type="text/javascript">
                 $(document).ready(function() {
+
+                    $('select').material_select();
 
                     $('.datepicker').pickadate({
                       selectMonths: true, // Creates a dropdown to control month

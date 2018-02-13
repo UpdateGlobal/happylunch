@@ -14,8 +14,8 @@
 }
 
 .sconder{
-	display: none;
-}
+		display: none;
+		}
 
 
 
@@ -25,19 +25,69 @@
 /* estas es la version que se vera en moviles*/  
 
 .viewmovil {
-  display: none;   !important;
- }
-}
+			  display: none;   !important;
+			 }
+			}
 
 @media only screen and (max-width: 499px) {
 .viewdesktop {
-  display: none;   !important;
- }
-}
+			  display: none;   !important;
+			 }
+			}
 
 
 .nombreson{
+			font-size: 12px;
+			margin: 2px 2px 2px;
+			}
 
-	font-size: 12px;
-	margin: 2px 2px 2px;
+.backlogin{
+			margin: 0px 0px 0px;
+			background-image: url(img/kitchen.jpg); 
+			background-size: cover; 
+			background-repeat: no-repeat; 
+			background: rgba(22, 0, 0, 0.3);
+			}
+
+
+
+
+
+  main {
+    flex: 1 0 auto;
+  }
+.brand-logo >img {
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
 }
+/* Menu - profile */
+.bg-card-user {
+    background: rgba(148, 201, 71, 0.16);
+	padding: 50px 0;
+}
+.truncate >img {
+	width: 180px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+/* FOOTER */
+footer .foot-text {
+	margin-top: 10px;
+}
+
+/* LOGIN */
+.logueo {/* PARALLAX */
+    height: 650px!important;
+}
+i.iconis {
+    font-size: 1em!important;
+    margin-top: 8px;
+}
+.login {
+    border: 1px solid #FFF;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,.7);
+    padding: 10px;
+}			
