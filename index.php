@@ -4,7 +4,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Titulo del Sitio</title>
+      <title>Happylunchesservices - Peru</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="DESCRIPCION DEL SITIO" />
       <meta name="keywords" content="PALABRAS CLAVER" />
@@ -100,20 +100,20 @@
             <div class="background bgcolor">
             
               </div>
-              <a href="#!user"><i class="material-icons grande" style="font-size: 72px;">supervisor_account</i></a>
+              <a href="#!user"><img src="img/logo.jpg" width="200" height="75"></a>
               <a href="#!name"><span class="white-text name">Nombre Padre</span></a><a href="">Logout</a>
               <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
             </div>
       </li>
-      <li class="thin"><a href="#test" class="active">Como Ordenar</a></li>
+      <li class="thin"><a  class="active" href="#test">Como Ordenar</a></li>
       <li class="thin"><a href="#test1">Menus</a></li>
         <ul class="collapsible collapsible-accordion">
           <li>
             <a class="collapsible-header thin">Mis hijos <i class="material-icons">arrow_drop_down</i></a>
             <div class="collapsible-body">
               <ul>
-                    <li class="thin"><a href="#test2">Alan</a></li>
-                    <li class="thin"><a href="#test3">Gionella</a></li>
+                    <li class="thin"><a href="#test2" style="margin-left: 45px;">Alan</a></li>
+                    <li class="thin"><a href="#test3" style="margin-left: 45px;">Gionella</a></li>
               </ul>
             </div>
           </li>
@@ -126,7 +126,7 @@
   </div>
 
 
- <div id="test" style="display: none;">Welcome</div>
+ <div id="test" style="display: none;" class="active">Aqui ira una guia para el usuario</div>
 
 <!--
 ======================================================================
@@ -140,14 +140,14 @@
 
   <ul class="collapsible" data-collapsible="accordion">
     <li>
-      <div class="collapsible-header"><i class="material-icons">room_service</i>Lunes - 12-12-12</div>
+      <div class="collapsible-header active"><i class="material-icons">room_service</i>Lunes - 12-12-12</div>
       <div class="collapsible-body">
 
         <div class="row">
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch1.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -168,13 +168,16 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch2.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+
                   <p class="btn chip">Alan</p>
                   <p class="btn chip">Gionella</p>
                   <p class="btn chip">Raul</p>
@@ -184,13 +187,15 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch3.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
                   <p class="btn chip">Alan</p>
                   <p class="btn chip">Gionella</p>
                   <p class="btn chip">Raul</p>
@@ -200,13 +205,15 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch4.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
                   <p class="btn chip">Alan</p>
                   <p class="btn chip">Gionella</p>
                   <p class="btn chip">Raul</p>
@@ -216,13 +223,15 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch5.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
                   <p class="btn chip">Alan</p>
                   <p class="btn chip">Gionella</p>
                   <p class="btn chip">Raul</p>
@@ -245,7 +254,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch5.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -266,7 +275,43 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch4.jpg" style="width: 280px; height: 200px;">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/lunch3.jpg" style="width: 280px; height: 200px;">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                   <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/lunch2.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -282,39 +327,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
-                </div>
-                <div class="card-content">
-                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
-                </div>
-            </div>
-          </div>
-          <div class="col s12 m3 l3" style="width: 20%;">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
-                </div>
-                <div class="card-content">
-                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
-                </div>
-            </div>
-          </div>
-          <div class="col s12 m3 l3" style="width: 20%;">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch1.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -337,7 +350,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch1.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -358,7 +371,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch2.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -374,7 +387,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch3.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -390,7 +403,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch4.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -406,7 +419,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch5.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -430,7 +443,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch5.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -451,7 +464,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch4.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -467,7 +480,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch3.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -483,7 +496,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch2.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -499,7 +512,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch1.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -522,7 +535,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch1.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -543,7 +556,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch2.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -559,7 +572,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch3.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -575,7 +588,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch4.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -591,7 +604,7 @@
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                  <img class="activator" src="img/lunch4.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
@@ -617,7 +630,9 @@
 ==                AQUI TERMINA LA SECCION DE MENUS                   ==
 ==                                                                  ==
 ======================================================================
--->
+
+-->   
+
 <!--
 ======================================================================
 ==                                                                  ==
@@ -625,7 +640,180 @@
 ==                                                                  ==
 ======================================================================
 -->
-  <div id="test2" style="display: none;">Mi Hijo Alan</div>
+<div id="test2" style="display: none;"><br>
+        <div class="row">
+            <div class="col s12 m4">
+              <div class="card horizontal">
+                <div class="card-image">
+                  <!--aqui vas es una imagen-->
+                  <i class="large material-icons" style="font-size: 150px;">perm_identity</i>
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                   <ul>
+                     <li style="line-height: 25px;"><b>Nombres:</b> Alan brito</li>
+                     <li style="line-height: 25px;"><b>Apellidos:</b> Barrio Nuevo</li>
+                     <li style="line-height: 25px;"><b>Colegio:</b> Colegio Santa Anita</li>
+                     <li style="line-height: 25px;"><b>Grado:</b> 1º Primaria</li>
+                   </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+          <h1>12-02-2018 al 16-02-2018</h1>
+          <!--comida-->
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/lunch1.jpg" style="width: 280px; height: 200px;">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Fecha Menu: <i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4 nombreson">Descripcion del Menu<i class="material-icons right">close</i></span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <button class="btn">Eliminar</button>
+                </div>
+            </div>
+          </div>
+          <!--comida-->
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/lunch2.jpg" style="width: 280px; height: 200px;">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Fecha Menu: <i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4 nombreson">Descripcion del Menu<i class="material-icons right">close</i></span> 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <button class="btn">Eliminar</button>
+                </div>
+            </div>
+          </div>
+          <!--comida-->
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/lunch3.jpg" style="width: 280px; height: 200px;">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Fecha Menu: <i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4 nombreson">Descripcion del Menu<i class="material-icons right">close</i></span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <button class="btn">Eliminar</button>
+                </div>
+            </div>
+          </div>
+          <!--comida-->
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/lunch4.jpg" style="width: 280px; height: 200px;">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Fecha Menu: <i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Descripcion del Menu<i class="material-icons right">close</i></span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <button class="btn">Eliminar</button>
+                </div>
+            </div>
+          </div>
+          <!--comida-->
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/lunch5.jpg" style="width: 280px; height: 200px;">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Fecha Menu: <i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Descripcion del Menu<i class="material-icons right">close</i></span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <button class="btn">Eliminar</button>
+                </div>
+            </div>
+          </div>
+          <!--comida-->
+        </div>
+
+
+        <div class="row">
+          <h1>20-02-2018 al 25-02-2018</h1>
+          <!--comida-->
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/lunch1.jpg" style="width: 280px; height: 200px;">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Fecha Menu: <i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Descripcion del Menu<i class="material-icons right">close</i></span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <button class="btn">Eliminar</button>
+                </div>
+            </div>
+          </div>
+          <!--comida-->
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/lunch2.jpg" style="width: 280px; height: 200px;">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Fecha Menu: <i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Descripcion del Menu<i class="material-icons right">close</i></span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <button class="btn">Eliminar</button>
+                </div>
+            </div>
+          </div>
+          <!--comida-->
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/lunch3.jpg" style="width: 280px; height: 200px;">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Fecha Menu: <i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Descripcion del Menu<i class="material-icons right">close</i></span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <button class="btn">Eliminar</button>
+                </div>
+            </div>
+          </div>
+          <!--comida-->
+        </div>
+
+
+
+</div>
   <!--
 ======================================================================
 ==                                                                  ==
@@ -633,8 +821,8 @@
 ==                                                                  ==
 ======================================================================
 -->
-  <div id="test3" style="display: none;">Mi Hija Gionella</div>
-  <div id="test4" style="display: none;">Registar hijo aqui formulario</div>
+  <div id="test3" style="display: none;">Aqui se mostrar el calendario de menues para mis hijos</div>
+  <div id="test4" style="display: none;">Formulario de registro de Hijos</div>
 <!--
 ======================================================================
 ==                                                                  ==
@@ -645,7 +833,7 @@
 <div id="test5" style="display: none;">
 
       <div class="row">
-        <h3 class="thin">Agregar Menu</h3>
+        <h3 class="thin">Crear Menu</h3>
         <div class="col s12 m6 l6" align="left">
             <form action="#">
                    <div class="input-field">
@@ -669,6 +857,17 @@
               <div class="col s12 m6 l6">
                 <label for="textarea1">Fecha publicacion menu</label>
                  <input type="text" class="datepicker">
+
+                    <div class="switch">
+                      <label for="textarea1">Estatus del Menu</label>
+                      <br><br>  
+                      <label>
+                        Deshativado
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        Activado
+                      </label>
+                    </div>
               </div>  
              
             </div>
@@ -681,7 +880,7 @@
                <div class="divider"></div>
 
             <h3 class="thin">Consultar</h3>  
-            <div class="row">
+    <!--         <div class="row">
             <div class="col s12 m6 l6">
               <form action="">
                 <label for="textarea1">Desde</label>
@@ -693,7 +892,50 @@
             </div>
               <input type="submit" name="submit" id="submit" class="btn" value="Consultar fechas">
               </form> 
-            </div> 
+            </div> --> 
+              <table class="responsive-table centered striped">
+        <thead>
+          <tr>
+              <th>Foto</th>
+              <th>Nombre</th>
+              <th>Descripcion</th>
+              <th>Fecha</th>
+              <th>Estatus</th>
+              <th>Modificar</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><img src="img/lunch1.jpg" width="60" height="60"></td>
+            <td>Lomo</td>
+            <td>lomo saltado con vegetales</td>
+            <td>
+              <input type="text" class="datepicker">
+            </td>
+            <td>
+                    <div class="switch">
+                      <label>
+                        Deshativado
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        Activado
+                      </label>
+                    </div>
+            </td>
+            <td>
+             <a class="btn sizebtn" ><i class="material-icons center btnmodificar">border_color</i></a>
+             <a class="btn sizebtn" ><i class="material-icons center btnmodificar">reply_all</i></a>
+             <a class="btn sizebtn" ><i class="material-icons center btnmodificar">delete</i></a>
+
+
+
+
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
 </div> 
 <!--
 ======================================================================
@@ -703,7 +945,7 @@
 ======================================================================
 -->
 
-  <div id="test6" style="display: none;">Agregar Colegio</div>
+  <div id="test6" style="display: none;">Agregar Colegio solo para el administrador</div>
 <!--
 ======================================================================
 ==                                                                  ==
@@ -726,7 +968,7 @@
   <div class="col s12 m6 l6"><H1>PEDIDOS</H1> </div>
   <div class="col s12 m6 l6 offset-m3" align="right">
                         <label for="last_name"></label>
-                        <input id="last_name" type="text" placeholder="Buscar por Nombre" class="validate">
+                        <input id="last_name" type="text" placeholder="Buscar por Persona" class="validate">
 
          
   </div>
@@ -766,13 +1008,14 @@
 <p class="thin">Para la Fecha: 18/02/2018</p>
 
 
-      <table class="responsive-table container centered">
+      <table class="responsive-table centered striped">
         <thead>
           <tr>
               <th>Colegio</th>
               <th>Grado</th>
               <th>Menu</th>
               <th>Nombre</th>
+              <th>Fecha</th>
           </tr>
         </thead>
 
@@ -782,24 +1025,28 @@
             <td>1º</td>
             <td>Lomo saltado</td>
             <td>Daniel</td>
+            <td>12-02-2018</td>
           </tr>
           <tr>
             <td>Colegio ST</td>
             <td>1º</td>
             <td>Lomo saltado</td>
              <td>Daniel</td>
+             <td>12-02-2018</td>
           </tr>
           <tr>
             <td>Colegio ST</td>
             <td>1º</td>
             <td>Lomo saltado</td>
              <td>Alan</td>
+             <td>12-02-2018</td>
           </tr>
            <tr>
             <td>Colegio ST</td>
             <td>1º</td>
             <td>Lomo saltado</td>
              <td>Alan</td>
+             <td>12-02-2018</td>
           </tr>
         </tbody>
       </table>
@@ -838,7 +1085,6 @@
 
                 <script type="text/javascript">
                 $(document).ready(function() {
-
                     $('select').material_select();
 
                     $('.datepicker').pickadate({

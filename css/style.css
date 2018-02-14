@@ -79,7 +79,7 @@ footer .foot-text {
 /* LOGIN */
 .logueo {/* PARALLAX */
     height: auto;
-}
+
 i.iconis {
     font-size: 1em!important;
     margin-top: 8px;
@@ -90,4 +90,19 @@ i.iconis {
     margin: 0 auto;
     background-color: rgba(255,255,255,.7);
     padding: 10px;
-}			
+}		
+
+.btnmodificar{
+
+padding: 0px 0px 0px;
+margin-left: -10px;
+margin-top: -3px
+
+}
+
+.sizebtn{
+	width: 0px;
+	height: 30px;
+}
+
+	

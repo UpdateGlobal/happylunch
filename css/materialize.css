@@ -6883,7 +6883,7 @@ form p:last-child {
 }
 
 .switch label input[type=checkbox]:checked + .lever {
-  background-color: #84c7c1;
+  background-color: #94c94761;
 }
 
 .switch label input[type=checkbox]:checked + .lever:before, .switch label input[type=checkbox]:checked + .lever:after {
@@ -6891,7 +6891,7 @@ form p:last-child {
 }
 
 .switch label input[type=checkbox]:checked + .lever:after {
-  background-color: #26a69a;
+  background-color:  #94c947;
 }
 
 .switch label .lever {
@@ -7400,7 +7400,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav li > a:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+/*  background-color: rgba(0, 0, 0, 0.05);*/
 }
 
 .side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-flat, .side-nav li > a.btn-floating {
