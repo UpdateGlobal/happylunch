@@ -78,7 +78,7 @@ footer .foot-text {
 
 /* LOGIN */
 .logueo {/* PARALLAX */
-    height: 650px!important;
+    height: auto;
 }
 i.iconis {
     font-size: 1em!important;

@@ -37,14 +37,116 @@
     </head>
 
     <body>
-          <!--contenidoBODY-->
-
-<div class="center">
+<!--contenidoBODY-->
 
 
 
 
 
+<!--registro user-->
+
+
+
+
+       <div class="parallax-container logueo">
+        <div class="parallax" style="background-size: cover; height: 100%; width: 100%;" ><img src="img/kitchen.jpg"></div>
+        <div class="row"><br>
+          <div class="col m8 s8 offset-m2 offset-s2 center">
+            <h4 class="truncate bg-card-user">
+            <div class="row login" style="width: 90%;">
+              <h4 class="thin">Registrarse</h4>
+                <div class="row">
+
+
+
+           
+
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Nombres</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <input  id="first_name" type="text" class="validate">
+                        <label for="first_name">Apellido Paterno</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Apellido Materno</label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="input-field col s6">
+                              <p style="margin: 0px -15px 1px;">
+                                <input name="group1" type="radio" />
+                                <label for="test1">Hombre</label>
+                                <input name="group1" type="radio" />
+                                <label for="test1">Mujer</label>
+                              </p>
+                      </div>  
+                      <div class="input-field col s6">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                      </div>
+                      <div class="input-field col s6">
+                             <input type="text" class="datepicker">
+                             <label for="date">Fecha de Nacimiento</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s6">
+                            <select>
+                              <option value="" disabled selected>Tipo de Documento</option>
+                              <option value="DNI">DNI</option>
+                              <option value="Pasaporte">Pasaporte</option>
+                              <option value="Carnet de Extranjeria">Carnet de Extranjeria</option>
+                            </select>
+                   
+                      </div>
+                      <div class="input-field col s6">
+                        <input  id="first_name" type="text" class="validate">
+                        <label for="first_name">Numero de Documento</label>
+                      </div> 
+                    </div>
+                    <div class="row">
+                          <div class="file-field input-field">
+                            <div class="btn">
+                              <span>File</span>
+                              <input type="file">
+                            </div>
+                            <div class="file-path-wrapper">
+                              <input class="file-path validate" type="text">
+                            </div>
+                          </div>
+                    </div>
+                    <h3 class="thin"><a href="registrouser.php" class="grey-text">Registrarme</a></h3>
+                  </form>
+                  </div>
+
+               
+                </div>
+            </div>
+            </h4>
+          </div>
+      </div>
+    </div>
+    
+ <!-- fi   n del .container -->
+
+
+
+
+<!--registro user-->
 
 
 
@@ -53,12 +155,7 @@
 
 
 
-
-
-
-
-
-<div class="container">
+<div class="">
         <footer class="page-footer">
           <div class="container">
             <div class="row">
@@ -99,6 +196,17 @@
 
                 <script type="text/javascript">
                 $(document).ready(function(){
+                      $('select').material_select();
+
+                      $('.datepicker').pickadate({
+                        selectMonths: true, // Creates a dropdown to control month
+                        selectYears: 15, // Creates a dropdown of 15 years to control year,
+                        today: 'Today',
+                        clear: 'Clear',
+                        close: 'Ok',
+                        closeOnSelect: false // Close upon selecting a date,
+                      });
+      
                       $('.button-collapse').sideNav({
                         menuWidth: 300, // Default is 300
                         edge: 'left', // Choose the horizontal origin

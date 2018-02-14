@@ -98,13 +98,14 @@
     <ul id="slide-out" class="side-nav fixed tabs">
       <li><div class="user-view">
             <div class="background bgcolor">
-                
+            
               </div>
               <a href="#!user"><i class="material-icons grande" style="font-size: 72px;">supervisor_account</i></a>
               <a href="#!name"><span class="white-text name">Nombre Padre</span></a><a href="">Logout</a>
               <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
             </div>
       </li>
+      <li class="thin"><a href="#test" class="active">Como Ordenar</a></li>
       <li class="thin"><a href="#test1">Menus</a></li>
         <ul class="collapsible collapsible-accordion">
           <li>
@@ -123,6 +124,9 @@
        <li class="thin"><a href="#test7">Pedidos</a></li>
     </ul>
   </div>
+
+
+ <div id="test" style="display: none;">Welcome</div>
 
 <!--
 ======================================================================
@@ -225,7 +229,381 @@
                 </div>
             </div>
           </div>
+        </div>
+      </div>
+    </li>
+    
 
+
+    <!--esatsrdere-->
+
+        <li>
+      <div class="collapsible-header"><i class="material-icons">room_service</i>Martes - 13-12-12</div>
+      <div class="collapsible-body">
+
+        <div class="row">
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <br>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                 
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>    <li>
+      <div class="collapsible-header"><i class="material-icons">room_service</i>Miercoles - 14-12-12</div>
+      <div class="collapsible-body">
+
+        <div class="row">
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <br>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                 
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+        <li>
+      <div class="collapsible-header"><i class="material-icons">room_service</i>Jueves - 15-12-12</div>
+      <div class="collapsible-body">
+
+        <div class="row">
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <br>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                 
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>    <li>
+      <div class="collapsible-header"><i class="material-icons">room_service</i>Viernes - 16-12-12</div>
+      <div class="collapsible-body">
+
+        <div class="row">
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <br>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                 
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l3" style="width: 20%;">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
+                  <p class="btn chip">Alan</p>
+                  <p class="btn chip">Gionella</p>
+                  <p class="btn chip">Raul</p>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
     </li>
@@ -344,8 +722,17 @@
 
 <div id="test7" style="display: none;">
     
+<div class="row">
+  <div class="col s12 m6 l6"><H1>PEDIDOS</H1> </div>
+  <div class="col s12 m6 l6 offset-m3" align="right">
+                        <label for="last_name"></label>
+                        <input id="last_name" type="text" placeholder="Buscar por Nombre" class="validate">
 
-<H1>PEDIDOS</H1>
+         
+  </div>
+</div>
+
+
   <div class="row" style="" align="right">
     <form action="">
       <div class="input-field col s1 m3 l3">
@@ -367,7 +754,7 @@
         </select>
       </div>
       <div class="input-field col s1 m3 l3">
-          <label for="textarea1">Desde</label>
+          <label for="textarea1">Fecha</label>
           <input type="text" class="datepicker">
       </div>
           <input type="submit" name="submit" id="submit" class="btn" value="Consultar">
@@ -385,6 +772,7 @@
               <th>Colegio</th>
               <th>Grado</th>
               <th>Menu</th>
+              <th>Nombre</th>
           </tr>
         </thead>
 
@@ -393,21 +781,25 @@
             <td>Colegio ST</td>
             <td>1º</td>
             <td>Lomo saltado</td>
+            <td>Daniel</td>
           </tr>
           <tr>
             <td>Colegio ST</td>
             <td>1º</td>
             <td>Lomo saltado</td>
+             <td>Daniel</td>
           </tr>
           <tr>
             <td>Colegio ST</td>
             <td>1º</td>
             <td>Lomo saltado</td>
+             <td>Alan</td>
           </tr>
            <tr>
             <td>Colegio ST</td>
             <td>1º</td>
             <td>Lomo saltado</td>
+             <td>Alan</td>
           </tr>
         </tbody>
       </table>
