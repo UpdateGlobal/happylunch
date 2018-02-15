@@ -96,15 +96,21 @@
   <div id="menu">
 
     <ul id="slide-out" class="side-nav fixed tabs">
-      <li><div class="user-view">
-            <div class="background bgcolor">
-            
-              </div>
-              <a href="#!user"><img src="img/logo.jpg" width="200" height="75"></a>
-              <a href="#!name"><span class="white-text name">Nombre Padre</span></a><a href="">Logout</a>
-              <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+      <li><div class="bgcolor center">
+                <img src="img/logo.jpg" width="200" height="75">
+            <div class="background" align="left">
+              <ul>
+                <li style="margin-bottom: -30px;"><a href=""><span class="white-text">Nombre Padre</span></a></li>
+                <li style="margin-bottom: -30px;"><a href="">Logout</a></li>
+                <li style="margin-bottom: -20px;"><a href=""><span class="white-text">jdandturk@gmail.com</span></a></li>
+                <li><a href=""><i class="material-icons">edit</i>Editar Perfil</a></li>
+              </ul>
             </div>
+          </div>
       </li>
+
+
+
       <li class="thin"><a  class="active" href="#test">Como Ordenar</a></li>
       <li class="thin"><a href="#test1">Menus</a></li>
       <li class="thin"><a href="#carta">Carta</a></li>
@@ -127,7 +133,18 @@
 ==                                                                  ==
 ======================================================================
 -->
- <div id="test" style="display: none;" class="active">Aqui ira una guia para el usuario</div>
+<div id="test" style="display: none;" class="active">
+
+   
+  <div class="container">
+    <div class="row" align="center">
+      <h1 class="thin">Bienvenidos</h1>
+      <p>Aqui estar una breve explicacion del uso de la plataforma</p>
+    </div>
+  </div>
+
+
+</div>
 
 <!--
 ======================================================================
@@ -888,10 +905,22 @@
                       <option value="1º">1º</option>
 
                     </select>
+              </div>
+              <div class="col s12 m3 l3">
+                    <label for="icon_prefix">Edad</label>
+                    <input id="icon_prefix" type="number" class="validate">
               </div>  
-              <div class="col s12 m12 l12 input-field">
-                  <div class="btn">
-                      <span>Archivo</span>
+              <div class="col s12 m3 l3">
+                <label for="icon_prefix">Fecha de fechas</label>
+                <input type="text" class="datepicker">
+                
+
+                
+              </div>
+
+              <div class="col s12 m6 l6  file-field input-field">
+                    <div class="btn">
+                      <span>Foto de Hijo</span>
                       <input type="file">
                     </div>
                     <div class="file-path-wrapper">
@@ -921,25 +950,14 @@
 
         <tbody>
           <tr>
-            <td><img src="img/lunch1.jpg" width="60" height="60"></td>
-            <td>Lomo</td>
-            <td>lomo saltado con vegetales</td>
-            <td>
-              <input type="text" class="datepicker">
-            </td>
-            <td>
-                    <div class="switch">
-                      <label>
-                        Deshativado
-                        <input type="checkbox">
-                        <span class="lever"></span>
-                        Activado
-                      </label>
-                    </div>
-            </td>
+            <td>Alan Brito</td>
+            <td>Barrios</td>
+            <td>Nuevos</td>
+            <td>Colegio SSCC</td>
+            <td>1º</td>
+            <td>12</td>
             <td>
              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">border_color</i></a>
-             <a class="btn sizebtn" ><i class="material-icons center btnmodificar">reply_all</i></a>
              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">delete</i></a>
             </td>
           </tr>
@@ -960,10 +978,10 @@
 
 
 
-<div id="test5" style="display: none;">
+<div id="test5" style="display: none;margin-left: 320px;">
 
       <div class="row">
-        <h3 class="thin">Crear Menu</h3>
+        <h1 class="thin">Crear Menu</h1>
         <div class="col s12 m6 l6" align="left">
             <form action="#">
                    <div class="input-field">
@@ -1072,7 +1090,89 @@
 ======================================================================
 -->
 
-  <div id="test6" style="display: none;">Agregar Colegio solo para el administrador</div>
+<div id="test6" style="display: none; margin-left: 320px;">
+ <h1 class="thin">Agregar Colegio</h1>
+
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <select>
+            <option value="" disabled selected>Elegir Colegio</option>
+            <option value="">Aqui va Colegio</option>
+          </select>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Dirección</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Telefono</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="submit" name="submit" id="submit" class="btn" value="Agregar">
+        </div>
+      </div>
+    </form>
+  </div>
+        
+      <table class="responsive-table centered striped">
+        <thead>
+          <tr>
+              <th>Colegio</th>
+              <th>Direccion</th>
+              <th>Telefono</th>
+              <th>Accion</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Colegio ST</td>
+            <td>Av la Universitara 123 entre Izaguire y Alisos</td>
+            <td>921966985</td>
+            <td>
+              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">border_color</i></a>
+              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">delete</i></a>
+            </td>
+          </tr>
+          <tr>
+            <td>Colegio ST</td>
+            <td>Av la Universitara 123 entre Izaguire y Alisos</td>
+            <td>921966985</td>
+            <td>
+              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">border_color</i></a>
+              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">delete</i></a>
+            </td>
+          </tr>
+          <tr>
+            <td>Colegio ST</td>
+            <td>Av la Universitara 123 entre Izaguire y Alisos</td>
+            <td>921966985</td>
+            <td>
+              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">border_color</i></a>
+              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">delete</i></a>
+            </td>
+          </tr>
+           <tr>
+            <td>Colegio ST</td>
+            <td>Av la Universitara 123 entre Izaguire y Alisos</td>
+            <td>921966985</td>
+            <td>
+              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">border_color</i></a>
+              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">delete</i></a>
+            </td>   
+          </tr>
+        </tbody>
+      </table>
+
+
+</div>
 <!--
 ======================================================================
 ==                                                                  ==
@@ -1089,13 +1189,13 @@
 ======================================================================
 -->
 
-<div id="test7" style="display: none;">
+<div id="test7" style="display: none; margin-left: 320px;">
     
 <div class="row">
   <div class="col s12 m6 l6"><H1>PEDIDOS</H1> </div>
   <div class="col s12 m6 l6 offset-m3" align="right">
                         <label for="last_name"></label>
-                        <input id="last_name" type="text" placeholder="Buscar por Persona" class="validate">
+                        <input id="last_name" type="text" placeholder="Buscar General" class="validate">
 
          
   </div>
