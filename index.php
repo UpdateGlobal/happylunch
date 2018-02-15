@@ -107,25 +107,26 @@
       </li>
       <li class="thin"><a  class="active" href="#test">Como Ordenar</a></li>
       <li class="thin"><a href="#test1">Menus</a></li>
-        <ul class="collapsible collapsible-accordion">
-          <li>
-            <a class="collapsible-header thin">Mis hijos <i class="material-icons">arrow_drop_down</i></a>
-            <div class="collapsible-body">
-              <ul>
-                    <li class="thin"><a href="#test2" style="margin-left: 45px;">Alan</a></li>
-                    <li class="thin"><a href="#test3" style="margin-left: 45px;">Gionella</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
+      <li class="thin"><a href="#carta">Carta</a></li>
+      <li class="thin"><a class='dropdown-button' data-activates='dropdown1'><i class="material-icons">arrow_drop_down</i>Mis Hijos</a></li>
+            <!-- Dropdown Structure -->
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#test2">Alan</a></li>
+            </ul>
       <li class="thin"><a href="#test4">Agregar Hijo</a></li>
       <li class="thin"><a href="#test5">Crear Menus</a></li>
-       <li class="thin"><a href="#test6">Agregar Colegio</a></li>
-       <li class="thin"><a href="#test7">Pedidos</a></li>
+      <li class="thin"><a href="#test6">Agregar Colegio</a></li>
+      <li class="thin"><a href="#test7">Pedidos</a></li>
     </ul>
   </div>
 
-
+<!--
+======================================================================
+==                                                                  ==
+==           AQUI INICIA LA SECCION DE EXPERIENCIA USER             ==
+==                                                                  ==
+======================================================================
+-->
  <div id="test" style="display: none;" class="active">Aqui ira una guia para el usuario</div>
 
 <!--
@@ -137,6 +138,7 @@
 -->
 
   <div id="test1" style="display: none;">
+    <h1 class="thin">Seleccion de Menus</h1>
 
   <ul class="collapsible" data-collapsible="accordion">
     <li>
@@ -627,11 +629,42 @@
 <!--
 ======================================================================
 ==                                                                  ==
-==                AQUI TERMINA LA SECCION DE MENUS                   ==
+==                AQUI TERMINA LA SECCION DE CARTA                  ==
 ==                                                                  ==
 ======================================================================
 
 -->   
+<div id="carta" style="display: none;">
+
+  <div class="row">
+  <div class="col s12 m6 l6"><h1 class="thin">Lista de Carta</h1></div>
+  <div class="col s12 m6 l6 offset-m3" align="right">
+      <label for="last_name"></label>
+      <input id="last_name" type="text" placeholder="Buscas Un Menu Especial" class="validate">
+  </div>
+</div>
+    
+    <div class="row">
+      <div class="row">
+      <p id="demo"></p>
+          <!--comida-
+          <div class='col s12 m3 l3' style='width: 20%;'><div class='card'><div class='card-image waves-effect waves-block waves-light'><img class='activator responsive-img' src='img/lunch2.jpg' style='width: 280px; height: 200px;'></div><div class='card-content'><span class='activator grey-text text-darken-4'>Nombre Menu<i class='material-icons right'>event_note</i></span></div><div class='card-reveal'><span class='card-title grey-text text-darken-4 nombreson'>Descripcion del Menu<i class='material-icons right'>close</i></span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p></div></div></div>
+          <-comida-->
+
+          <script>
+          var text = "";
+          var i = 0;
+          while (i < 13) {
+              text += "<div class='col s12 m3 l3' style='width: 20%;'><div class='card'><div class='card-image waves-effect waves-block waves-light'><img class='activator responsive-img' src='img/lunch2.jpg' style='width: 280px; height: 200px;'></div><div class='card-content'><span class='activator grey-text text-darken-4'>Nombre Menu<i class='material-icons right'>event_note</i></span></div><div class='card-reveal'><span class='card-title grey-text text-darken-4 nombreson'>Descripcion del Menu<i class='material-icons right'>close</i></span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></div></div>";
+              i++;
+          }
+          document.getElementById("demo").innerHTML = text;
+          </script>
+      </div><!--row-->
+    </div>
+
+</div>
 
 <!--
 ======================================================================
@@ -641,6 +674,7 @@
 ======================================================================
 -->
 <div id="test2" style="display: none;"><br>
+  <h1 class="thin">Mi Hijo Alan Brito</h1>
         <div class="row">
             <div class="col s12 m4">
               <div class="card horizontal">
@@ -817,12 +851,104 @@
   <!--
 ======================================================================
 ==                                                                  ==
-==                AQUI TERMINA LA SECCION DE MENUS                   ==
+==           AQUI TERMINA LA SECCION DE AGREGAR HIJO                ==
 ==                                                                  ==
 ======================================================================
 -->
-  <div id="test3" style="display: none;">Aqui se mostrar el calendario de menues para mis hijos</div>
-  <div id="test4" style="display: none;">Formulario de registro de Hijos</div>
+
+<div id="test4" style="display: none;"> 
+  <h1 class="thin">Registra a tu Hijo</h1>
+    <div class="row">
+            <form action="#">
+              <div class="col s12 m12 l12 input-field">
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Nombre</label>
+              </div><!--end-->
+              <div class="col s12 m6 l6 input-field">
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Apellido paterno</label>
+              </div>
+              <div class="col s12 m6 l6 input-field">
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Apellido materno</label>
+              </div> 
+
+
+
+
+              <div class="col s12 m6 l6 input-field">
+                    <select>
+                      <option value="" disabled selected>Donde Estudia</option>
+                      <option value="Colegio SSCC">Colegio SSCC</option>
+                    </select>
+              </div>
+              <div class="col s12 m6 l6 input-field">
+                    <select>
+                      <option value="" disabled selected>Que Grado Estudia</option>
+                      <option value="1º">1º</option>
+
+                    </select>
+              </div>  
+              <div class="col s12 m12 l12 input-field">
+                  <div class="btn">
+                      <span>Archivo</span>
+                      <input type="file">
+                    </div>
+                    <div class="file-path-wrapper">
+                      <input class="file-path validate" type="text">
+                    </div>
+                  </div>
+              </div>
+
+              <div class="container" align="center">
+                  <input type="submit" name="submit" id="submit" class="btn" value="Registar">
+              </div>
+          </form>
+
+
+      <table class="responsive-table centered striped">
+        <thead>
+          <tr>
+              <th>Nombre</th>
+              <th>Apellido Paterno</th>
+              <th>Apellidos Maternos</th>
+              <th>Colegio</th>
+              <th>Grado</th>
+              <th>Edad</th>
+              <th>Acciones</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><img src="img/lunch1.jpg" width="60" height="60"></td>
+            <td>Lomo</td>
+            <td>lomo saltado con vegetales</td>
+            <td>
+              <input type="text" class="datepicker">
+            </td>
+            <td>
+                    <div class="switch">
+                      <label>
+                        Deshativado
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        Activado
+                      </label>
+                    </div>
+            </td>
+            <td>
+             <a class="btn sizebtn" ><i class="material-icons center btnmodificar">border_color</i></a>
+             <a class="btn sizebtn" ><i class="material-icons center btnmodificar">reply_all</i></a>
+             <a class="btn sizebtn" ><i class="material-icons center btnmodificar">delete</i></a>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    
+    </div><!--row-->
+</div><!--end-->
 <!--
 ======================================================================
 ==                                                                  ==
@@ -830,6 +956,10 @@
 ==                                                                  ==
 ======================================================================
 -->
+
+
+
+
 <div id="test5" style="display: none;">
 
       <div class="row">
@@ -876,11 +1006,11 @@
             </div>
           </form>
           <br>   
-
+ 
                <div class="divider"></div>
 
             <h3 class="thin">Consultar</h3>  
-    <!--         <div class="row">
+            <div class="row">
             <div class="col s12 m6 l6">
               <form action="">
                 <label for="textarea1">Desde</label>
@@ -892,8 +1022,8 @@
             </div>
               <input type="submit" name="submit" id="submit" class="btn" value="Consultar fechas">
               </form> 
-            </div> --> 
-              <table class="responsive-table centered striped">
+            </div> 
+      <table class="responsive-table centered striped">
         <thead>
           <tr>
               <th>Foto</th>
@@ -927,16 +1057,13 @@
              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">border_color</i></a>
              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">reply_all</i></a>
              <a class="btn sizebtn" ><i class="material-icons center btnmodificar">delete</i></a>
-
-
-
-
             </td>
           </tr>
 
         </tbody>
       </table>
 </div> 
+</div>
 <!--
 ======================================================================
 ==                                                                  ==
@@ -949,7 +1076,7 @@
 <!--
 ======================================================================
 ==                                                                  ==
-==           AQUI INICIA LA SECCION DE AGREGAR COLEGIO              ==
+==           AQUI INICIA LA SECCION DE AGREGAR MENUS              ==
 ==                                                                  ==
 ======================================================================
 -->
