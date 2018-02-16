@@ -7,7 +7,9 @@
   padding: 20px;
 }
 
-
+.conten{
+	margin-left: 320px;
+}
 
 .bgcolor{
 	 background-color: #94c748;
@@ -18,7 +20,11 @@
 		}
 
 
-
+.iconmenu{
+	width: 32px;
+    height: 30px;
+    margin: -5px 5px -5px;
+}
 
 @media only screen and (min-width: 500px) {
 
@@ -63,7 +69,7 @@
 }
 /* Menu - profile */
 .bg-card-user {
-    background: rgba(148, 201, 71, 0.16);
+background: rgba(255, 255, 255, 0.9);
 	padding: 50px 0;
 }
 .truncate >img {

@@ -63,50 +63,54 @@
 
                   <form class="col s12">
                     <div class="row">
-                      <div class="input-field col s12">
+                      <div class="input-field col s6">
                         <input id="first_name" type="text" class="validate">
-                        <label for="first_name">Nombres</label>
+                        <label for="first_name" class="grey-text">Nombres</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name" class="grey-text">Nacionalidad</label>
                       </div>
                     </div>
                     <div class="row">
                       <div class="input-field col s6">
                         <input  id="first_name" type="text" class="validate">
-                        <label for="first_name">Apellido Paterno</label>
+                        <label for="first_name" class="grey-text">Apellido Paterno</label>
                       </div>
                       <div class="input-field col s6">
                         <input id="last_name" type="text" class="validate">
-                        <label for="last_name">Apellido Materno</label>
+                        <label for="last_name" class="grey-text">Apellido Materno</label>
                       </div>
                     </div>
 
                     <div class="row">
                       <div class="input-field col s6">
-                              <p style="margin: 0px -15px 1px;">
-                                <input name="group1" type="radio" />
-                                <label for="test1">Hombre</label>
-                                <input name="group1" type="radio" />
-                                <label for="test1">Mujer</label>
-                              </p>
+                            <select>
+                              <option value="" disabled selected><span style="color: #9e9e9e:">Sexo</span> </option>
+                              <option value="Hombre">Hombre</option>
+                              <option value="Mujer">Mujer</option>
+                            </select>
+
                       </div>  
                       <div class="input-field col s6">
                             <input id="email" type="email" class="validate">
-                            <label for="email">Email</label>
+                            <label for="email" class="grey-text">Email</label>
                       </div>
                     </div>
                     <div class="row">
                       <div class="input-field col s6">
                         <input id="password" type="password" class="validate">
-                        <label for="password">Password</label>
+                        <label for="password" class="grey-text">Password</label>
                       </div>
                       <div class="input-field col s6">
                              <input type="text" class="datepicker">
-                             <label for="date">Fecha de Nacimiento</label>
+                             <label for="date" class="grey-text">Fecha de Nacimiento</label>
                       </div>
                     </div>
                     <div class="row">
                       <div class="input-field col s6">
                             <select>
-                              <option value="" disabled selected>Tipo de Documento</option>
+                              <option value="" disabled selected style="color: #fff;">Tipo de Documento</option>
                               <option value="DNI">DNI</option>
                               <option value="Pasaporte">Pasaporte</option>
                               <option value="Carnet de Extranjeria">Carnet de Extranjeria</option>
@@ -115,13 +119,13 @@
                       </div>
                       <div class="input-field col s6">
                         <input  id="first_name" type="text" class="validate">
-                        <label for="first_name">Numero de Documento</label>
+                        <label for="first_name" class="grey-text">Numero de Documento</label>
                       </div> 
                     </div>
                     <div class="row">
                           <div class="file-field input-field">
                             <div class="btn">
-                              <span>File</span>
+                              <span>Foto de Perfil</span>
                               <input type="file">
                             </div>
                             <div class="file-path-wrapper">
@@ -129,7 +133,7 @@
                             </div>
                           </div>
                     </div>
-                    <h3 class="thin"><a href="registrouser.php" class="grey-text">Registrarme</a></h3>
+                    <h3 class="thin"><a href="registrouser.php" class="white-text btn">Registrarme</a></h3>
                   </form>
                   </div>
 
@@ -148,7 +152,19 @@
 
 <!--registro user-->
 
-
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/lunch1.jpg">
+          <span class="card-title">Card Title</span>
+          <div class="row" align="center">
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 

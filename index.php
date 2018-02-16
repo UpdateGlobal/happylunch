@@ -54,7 +54,8 @@
 
       </div>
        <a href="#!user"><i class="material-icons grande" style="font-size: 72px;">supervisor_account</i></a>
-       <a href="#!name"><span class="white-text name">Nombre Padre</span></a><a href="">Logout</a>
+       <a href="#!name"><span class="white-text name">Nombre Padre</span></a>
+       <a href="">Logout</a>
        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
     </div>
     </li>
@@ -90,41 +91,45 @@
 <!--menunormal-->
 
 
+<!-- 
+<div id="container">
+  <div id="menu">
+    <img src="img/logo.jpg" width="200" height="75">
+    <ul id="slide-out"></ul>
+    
+  </div>
+</div>
+ -->
 
 <div id="container">
-
   <div id="menu">
-
     <ul id="slide-out" class="side-nav fixed tabs">
-      <li><div class="bgcolor center">
+      <li class="thin"><div class="bgcolor center">
                 <img src="img/logo.jpg" width="200" height="75">
             <div class="background" align="left">
               <ul>
                 <li style="margin-bottom: -30px;"><a href=""><span class="white-text">Nombre Padre</span></a></li>
-                <li style="margin-bottom: -30px;"><a href="">Logout</a></li>
+                <li style="margin-bottom: -30px;"><a href="registrouser.php">Logout</a></li>
                 <li style="margin-bottom: -20px;"><a href=""><span class="white-text">jdandturk@gmail.com</span></a></li>
-                <li><a href=""><i class="material-icons">edit</i>Editar Perfil</a></li>
+                <li><a href="registrouser.php"><i class="material-icons">edit</i>Editar Perfil</a></li>
               </ul>
             </div>
           </div>
       </li>
-
-
-
-      <li class="thin"><a  class="active" href="#test">Como Ordenar</a></li>
+      <li class="thin"><a class="active" href="#test">Como Ordenar</a></li>
       <li class="thin"><a href="#test1">Menus</a></li>
       <li class="thin"><a href="#carta">Carta</a></li>
       <li class="thin"><a class='dropdown-button' data-activates='dropdown1'><i class="material-icons">arrow_drop_down</i>Mis Hijos</a></li>
-            <!-- Dropdown Structure -->
             <ul id='dropdown1' class='dropdown-content'>
               <li><a href="#test2">Alan</a></li>
             </ul>
-      <li class="thin"><a href="#test4">Agregar Hijo</a></li>
+      <li class="thin"><a href="#test4">Agregar Hijos</a></li>
       <li class="thin"><a href="#test5">Crear Menus</a></li>
       <li class="thin"><a href="#test6">Agregar Colegio</a></li>
       <li class="thin"><a href="#test7">Pedidos</a></li>
     </ul>
   </div>
+</div>
 
 <!--
 ======================================================================
@@ -133,7 +138,7 @@
 ==                                                                  ==
 ======================================================================
 -->
-<div id="test" style="display: none;" class="active">
+<div id="test" style="display: none;" class="conten">
 
    
   <div class="container">
@@ -154,16 +159,16 @@
 ======================================================================
 -->
 
-  <div id="test1" style="display: none;">
+  <div id="test1" style="display: none;" class="conten">
     <h1 class="thin">Seleccion de Menus</h1>
 
   <ul class="collapsible" data-collapsible="accordion">
     <li>
-      <div class="collapsible-header active"><i class="material-icons">room_service</i>Lunes - 12-12-12</div>
+      <div class="collapsible-header active"><img src="img/lunes.png" class="iconmenu"> Lunes - 12-12-12</div>
       <div class="collapsible-body">
 
         <div class="row">
-          <div class="col s12 m3 l3" style="width: 20%;">
+          <div class="col s12 m6 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" src="img/lunch1.jpg" style="width: 280px; height: 200px;">
@@ -184,7 +189,8 @@
                 </div>
             </div>
           </div>
-          <div class="col s12 m3 l3" style="width: 20%;">
+
+          <div class="col s12 m6 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" src="img/lunch2.jpg" style="width: 280px; height: 200px;">
@@ -203,6 +209,9 @@
                 </div>
             </div>
           </div>
+
+
+
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
@@ -258,7 +267,9 @@
             </div>
           </div>
         </div>
+        <div class="row" align="right"><input type="submit" name="submit" id="submit" class="btn" value="Ordenar"></div>  
       </div>
+
     </li>
     
 
@@ -266,7 +277,7 @@
     <!--esatsrdere-->
 
         <li>
-      <div class="collapsible-header"><i class="material-icons">room_service</i>Martes - 13-12-12</div>
+      <div class="collapsible-header"><img src="img/martes.png" class="iconmenu">  Martes - 13-12-12</div>
       <div class="collapsible-body">
 
         <div class="row">
@@ -360,9 +371,10 @@
             </div>
           </div>
         </div>
+           <div class="row" align="right"><input type="submit" name="submit" id="submit" class="btn" value="Ordenar"></div>  
       </div>
     </li>    <li>
-      <div class="collapsible-header"><i class="material-icons">room_service</i>Miercoles - 14-12-12</div>
+      <div class="collapsible-header"><img src="img/miercoles.png" class="iconmenu"> Miercoles - 14-12-12</div>
       <div class="collapsible-body">
 
         <div class="row">
@@ -452,10 +464,11 @@
             </div>
           </div>
         </div>
+           <div class="row" align="right"><input type="submit" name="submit" id="submit" class="btn" value="Ordenar"></div>  
       </div>
     </li>
         <li>
-      <div class="collapsible-header"><i class="material-icons">room_service</i>Jueves - 15-12-12</div>
+      <div class="collapsible-header"><img src="img/jueves.png" class="iconmenu"> Jueves - 15-12-12</div>
       <div class="collapsible-body">
 
         <div class="row">
@@ -545,9 +558,10 @@
             </div>
           </div>
         </div>
+           <div class="row" align="right"><input type="submit" name="submit" id="submit" class="btn" value="Ordenar"></div>  
       </div>
     </li>    <li>
-      <div class="collapsible-header"><i class="material-icons">room_service</i>Viernes - 16-12-12</div>
+      <div class="collapsible-header"><img src="img/viernes.png" class="iconmenu">  Viernes - 16-12-12</div>
       <div class="collapsible-body">
 
         <div class="row">
@@ -637,6 +651,7 @@
             </div>
           </div>
         </div>
+           <div class="row" align="right"><input type="submit" name="submit" id="submit" class="btn" value="Ordenar"></div>  
       </div>
     </li>
     
@@ -651,7 +666,7 @@
 ======================================================================
 
 -->   
-<div id="carta" style="display: none;">
+<div id="carta" style="display: none;" class="conten">
 
   <div class="row">
   <div class="col s12 m6 l6"><h1 class="thin">Lista de Carta</h1></div>
@@ -690,7 +705,7 @@
 ==                                                                  ==
 ======================================================================
 -->
-<div id="test2" style="display: none;"><br>
+<div id="test2" style="display: none;" class="conten"><br>
   <h1 class="thin">Mi Hijo Alan Brito</h1>
         <div class="row">
             <div class="col s12 m4">
@@ -873,7 +888,7 @@
 ======================================================================
 -->
 
-<div id="test4" style="display: none;"> 
+<div id="test4" style="display: none;" class="conten"> 
   <h1 class="thin">Registra a tu Hijo</h1>
     <div class="row">
             <form action="#">
@@ -895,7 +910,7 @@
 
               <div class="col s12 m6 l6 input-field">
                     <select>
-                      <option value="" disabled selected>Donde Estudia</option>
+                      <option value="" disabled selected><span class="grey-text">Donde Estudia</span> </option>
                       <option value="Colegio SSCC">Colegio SSCC</option>
                     </select>
               </div>
@@ -978,7 +993,7 @@
 
 
 
-<div id="test5" style="display: none;margin-left: 320px;">
+<div id="test5" style="display: none;" class="conten">
 
       <div class="row">
         <h1 class="thin">Crear Menu</h1>
@@ -1090,7 +1105,7 @@
 ======================================================================
 -->
 
-<div id="test6" style="display: none; margin-left: 320px;">
+<div id="test6" style="display: none;" class="conten">
  <h1 class="thin">Agregar Colegio</h1>
 
   <div class="row">
@@ -1108,9 +1123,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="input-field col s12">
+        <div class="input-field col s6">
           <input id="last_name" type="text" class="validate">
           <label for="last_name">Telefono</label>
+        </div>
+                <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Persona de Contacto</label>
         </div>
       </div>
       <div class="row">
@@ -1189,7 +1208,7 @@
 ======================================================================
 -->
 
-<div id="test7" style="display: none; margin-left: 320px;">
+<div id="test7" style="display: none;" class="conten">
     
 <div class="row">
   <div class="col s12 m6 l6"><H1>PEDIDOS</H1> </div>
@@ -1312,6 +1331,7 @@
 
                 <script type="text/javascript">
                 $(document).ready(function() {
+
                     $('select').material_select();
 
                     $('.datepicker').pickadate({
