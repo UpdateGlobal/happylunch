@@ -105,10 +105,11 @@
   <div id="menu">
     <ul id="slide-out" class="side-nav fixed tabs">
       <li class="thin"><div class="bgcolor center">
-                <img src="img/logo.jpg" width="200" height="75">
+        <br>
+                <img src="img/logo-white.png" width="250" height="75">
             <div class="background" align="left">
               <ul>
-                <li style="margin-bottom: -30px;"><a href=""><span class="white-text">Nombre Padre</span></a></li>
+                <li style="margin-bottom: -30px;"><a href=""><span class="white-text">Pedro Cabilla</span></a></li>
                 <li style="margin-bottom: -30px;"><a href="registrouser.php">Logout</a></li>
                 <li style="margin-bottom: -20px;"><a href=""><span class="white-text">jdandturk@gmail.com</span></a></li>
                 <li><a href="registrouser.php"><i class="material-icons">edit</i>Editar Perfil</a></li>
@@ -116,17 +117,23 @@
             </div>
           </div>
       </li>
-      <li class="thin"><a class="active" href="#test">Como Ordenar</a></li>
-      <li class="thin"><a href="#test1">Menus</a></li>
-      <li class="thin"><a href="#carta">Carta</a></li>
-      <li class="thin"><a class='dropdown-button' data-activates='dropdown1'><i class="material-icons">arrow_drop_down</i>Mis Hijos</a></li>
+
+      <li class="thin listh"><a class="active tooltipped" href="#test" data-position="right" data-delay="50" data-tooltip="Aqui podras ver como puedes ordenar nuestros platillos.">Como Ordenar</a></li>
+      <li class="thin listh"><a href="#carta" class="tooltipped" data-position="right" data-delay="50" data-tooltip="Puedes ver lo que tenemos para ti.">Revisa Nuestra Carta</a></li>
+      <li class="thin listh"><a href="#test1" class="tooltipped" data-position="right" data-delay="50" data-tooltip="Seleccion la fecha y mira lo que tenemos para ese dia y elige para quien.">Selecciona Menus</a></li>
+
+      <li class="thin listh"><a class='dropdown-button' data-activates='dropdown1'>Para Quiene?<i class="material-icons">arrow_drop_down</i></a></li>
             <ul id='dropdown1' class='dropdown-content'>
               <li><a href="#test2">Alan</a></li>
+              <li><a href="#test2">luis</a></li>
+              <li><a href="#test2">alberto</a></li>
+
             </ul>
-      <li class="thin"><a href="#test4">Agregar Hijos</a></li>
-      <li class="thin"><a href="#test5">Crear Menus</a></li>
-      <li class="thin"><a href="#test6">Agregar Colegio</a></li>
-      <li class="thin"><a href="#test7">Pedidos</a></li>
+      <li class="thin listh"><a href="#test4" class="tooltipped" data-position="right" data-delay="50" data-tooltip="Registra a alguien mas para colocarlo en tu lista ">Agrega a Alquien Mas</a></li>
+      <li class="thin listh"><a href="#test5">Crear Menus</a></li>
+      <li class="thin listh"><a href="#test6">Agregar Colegio</a></li>
+      <li class="thin listh"><a href="#test7">Pedidos Admin</a></li>
+      <li class="thin listh"><a href="#test8" class="tooltipped" data-position="right" data-delay="50" data-tooltip="Aqui puedes revisar todo ">Pedidos Pedro Cabilla</a></li>
     </ul>
   </div>
 </div>
@@ -143,7 +150,7 @@
    
   <div class="container">
     <div class="row" align="center">
-      <h1 class="thin">Bienvenidos</h1>
+      <h1 class="thin listh">Bienvenidos</h1>
       <p>Aqui estar una breve explicacion del uso de la plataforma</p>
     </div>
   </div>
@@ -174,18 +181,25 @@
                   <img class="activator" src="img/lunch1.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
-                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                  <span class="activator grey-text text-darken-4">Seco Con Frijoles<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <br>
                   <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                 
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check001" />
+                          <label for="check001">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check002" />
+                          <label for="check002">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check003" />
+                          <label for="check003">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -196,16 +210,25 @@
                   <img class="activator" src="img/lunch2.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
-                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                  <span class="activator grey-text text-darken-4">Seco de pollo<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
                   <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check004" />
+                          <label for="check004">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check005" />
+                          <label for="check005">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check006" />
+                          <label for="check006">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -218,15 +241,25 @@
                   <img class="activator" src="img/lunch3.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
-                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                  <span class="activator grey-text text-darken-4">Enrollado de pollo<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
                   <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check007" />
+                          <label for="check007">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check008" />
+                          <label for="check008">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check009" />
+                          <label for="check009">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -236,15 +269,25 @@
                   <img class="activator" src="img/lunch4.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
-                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                  <span class="activator grey-text text-darken-4">Filet pescado c/ arroz<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
                   <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check010" />
+                          <label for="check010">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check011" />
+                          <label for="check011">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check012" />
+                          <label for="check012">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -254,15 +297,25 @@
                   <img class="activator" src="img/lunch5.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
-                  <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
+                  <span class="activator grey-text text-darken-4">Carapulcra<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
                   <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check013" />
+                          <label for="check013">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check014" />
+                          <label for="check014">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check015" />
+                          <label for="check015">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -291,14 +344,21 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <br>
                   <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                 
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check016" />
+                          <label for="check016">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check017" />
+                          <label for="check017">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check018" />
+                          <label for="check018">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -314,9 +374,19 @@
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
                   <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check019" />
+                          <label for="check019">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check020" />
+                          <label for="check020">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check021" />
+                          <label for="check021">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -332,9 +402,19 @@
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
                    <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check022" />
+                          <label for="check022">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check023" />
+                          <label for="check023">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check024" />
+                          <label for="check024">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -348,9 +428,22 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check025" />
+                          <label for="check025">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check026" />
+                          <label for="check026">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check027" />
+                          <label for="check027">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -364,9 +457,21 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check028" />
+                          <label for="check028">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check0029" />
+                          <label for="check0029">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check030" />
+                          <label for="check030">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -388,14 +493,21 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <br>
                   <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                 
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check031" />
+                          <label for="check031">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check032" />
+                          <label for="check032">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check033" />
+                          <label for="check033">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -409,9 +521,21 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check034" />
+                          <label for="check034">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check035" />
+                          <label for="check035">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check036" />
+                          <label for="check036">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -425,9 +549,21 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check037" />
+                          <label for="check037">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check038" />
+                          <label for="check038">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check038" />
+                          <label for="check038">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -441,9 +577,21 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check039" />
+                          <label for="check039">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check040" />
+                          <label for="check040">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check041" />
+                          <label for="check041">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -457,9 +605,22 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                  <br>
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check042" />
+                          <label for="check042">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check043" />
+                          <label for="check043">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check044" />
+                          <label for="check044">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -482,14 +643,22 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <br>
+
                   <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                 
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check045" />
+                          <label for="check045">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check046" />
+                          <label for="check046">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check047" />
+                          <label for="check047">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -503,9 +672,22 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check047" />
+                          <label for="check047">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check048" />
+                          <label for="check048">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check049" />
+                          <label for="check049">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -519,9 +701,22 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+  
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check050" />
+                          <label for="check050">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check051" />
+                          <label for="check051">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check052" />
+                          <label for="check052">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -535,9 +730,22 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check053" />
+                          <label for="check053">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check054" />
+                          <label for="check054">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check055" />
+                          <label for="check055">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -551,54 +759,91 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check056" />
+                          <label for="check056">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check057" />
+                          <label for="check057">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check057" />
+                          <label for="check057">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
         </div>
            <div class="row" align="right"><input type="submit" name="submit" id="submit" class="btn" value="Ordenar"></div>  
       </div>
-    </li>    <li>
+    </li>   
+    <li>
       <div class="collapsible-header"><img src="img/viernes.png" class="iconmenu">  Viernes - 16-12-12</div>
       <div class="collapsible-body">
 
-        <div class="row">
+
+
+                <div class="row">
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/lunch1.jpg" style="width: 280px; height: 200px;">
+                  <img class="activator" src="img/lunch5.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <br>
+
                   <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                 
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check045" />
+                          <label for="check045">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check046" />
+                          <label for="check046">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check047" />
+                          <label for="check047">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/lunch2.jpg" style="width: 280px; height: 200px;">
+                  <img class="activator" src="img/lunch4.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check047" />
+                          <label for="check047">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check048" />
+                          <label for="check048">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check049" />
+                          <label for="check049">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
@@ -612,50 +857,87 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+  
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check050" />
+                          <label for="check050">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check051" />
+                          <label for="check051">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check052" />
+                          <label for="check052">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/lunch4.jpg" style="width: 280px; height: 200px;">
+                  <img class="activator" src="img/lunch2.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check053" />
+                          <label for="check053">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check054" />
+                          <label for="check054">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check055" />
+                          <label for="check055">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
           <div class="col s12 m3 l3" style="width: 20%;">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/lunch4.jpg" style="width: 280px; height: 200px;">
+                  <img class="activator" src="img/lunch1.jpg" style="width: 280px; height: 200px;">
                 </div>
                 <div class="card-content">
                   <span class="activator grey-text text-darken-4">Nombre Menu<i class="material-icons right">event_note</i></span>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4 nombreson">Para Quienes?<i class="material-icons right">close</i></span>
-                  <p class="btn chip">Alan</p>
-                  <p class="btn chip">Gionella</p>
-                  <p class="btn chip">Raul</p>
+
+                  <p style="font-size: 8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <ul>
+                        <li>
+                          <input type="checkbox" id="check056" />
+                          <label for="check056">Alan</label>
+                        </li>
+                        <li>            
+                          <input type="checkbox" id="check057" />
+                          <label for="check057">Gianella</label></li>
+                        <li>
+                          <input type="checkbox" id="check057" />
+                          <label for="check057">Raul</label>
+                        </li>
+                      </ul>
                 </div>
             </div>
           </div>
         </div>
            <div class="row" align="right"><input type="submit" name="submit" id="submit" class="btn" value="Ordenar"></div>  
       </div>
-    </li>
-    
-
+      </li>
   </ul>
 </div>
 <!--
@@ -688,7 +970,7 @@
           var text = "";
           var i = 0;
           while (i < 13) {
-              text += "<div class='col s12 m3 l3' style='width: 20%;'><div class='card'><div class='card-image waves-effect waves-block waves-light'><img class='activator responsive-img' src='img/lunch2.jpg' style='width: 280px; height: 200px;'></div><div class='card-content'><span class='activator grey-text text-darken-4'>Nombre Menu<i class='material-icons right'>event_note</i></span></div><div class='card-reveal'><span class='card-title grey-text text-darken-4 nombreson'>Descripcion del Menu<i class='material-icons right'>close</i></span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></div></div>";
+              text += "<div class='col s12 m3 l3' style='width: 20%;'><div class='card'><div class='card-image waves-effect waves-block waves-light'><img class='activator responsive-img' src='img/lunch2.jpg' style='width: 280px; height: 200px;'></div><div class='card-content'><span class='activator grey-text text-darken-4'>Arroz Con Pollo<i class='material-icons right'>event_note</i></span></div><div class='card-reveal'><span class='card-title grey-text text-darken-4 nombreson'>Descripcion del Menu<i class='material-icons right'>close</i></span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></div></div>";
               i++;
           }
           document.getElementById("demo").innerHTML = text;
@@ -911,26 +1193,34 @@
               <div class="col s12 m6 l6 input-field">
                     <select>
                       <option value="" disabled selected><span class="grey-text">Donde Estudia</span> </option>
-                      <option value="Colegio SSCC">Colegio SSCC</option>
+                      <option value="Markham College">Markham College</option>
+                      <option value="Colegio SSCC Recoleta">Colegio SSCC Recoleta</option>
+                      <option value="Colegio Santa Maria">Colegio Santa Maria</option>
+                      <option value="Colegio Sophianum">Colegio Sophianum</option>
+                      <option value="Colegio Sophianum">Colegio Sophianum</option>
+                      <option value="Colegio Santa Ursula">Colegio Santa Ursula</option>
                     </select>
               </div>
               <div class="col s12 m6 l6 input-field">
                     <select>
                       <option value="" disabled selected>Que Grado Estudia</option>
-                      <option value="1º">1º</option>
-
+                      <option value="1er Grado Primaria">1er Grado Primaria</option>
+                      <option value="2do Grado Primaria">2do Grado Primaria</option>
+                      <option value="3er Grado Primaria">3er Grado Primaria</option>
+                      <option value="4to Grado Primaria">4to Grado Primaria</option>
+                      <option value="5to Grado Primaria">5to Grado Primaria</option>
+                      <option value="6to Grado Primaria">6to Grado Primaria</option>
+                      <option value="1er Grado Segundaria">1er Grado Segundaria</option>
+                      <option value="2do Grado Segundaria">2do Grado Segundaria</option>
+                      <option value="3er Grado Segundaria">3er Grado Segundaria</option>
+                      <option value="4to Grado Segundaria">4to Grado Segundaria</option>
+                      <option value="5to Grado Segundaria">5to Grado Segundaria</option>
                     </select>
               </div>
-              <div class="col s12 m3 l3">
-                    <label for="icon_prefix">Edad</label>
-                    <input id="icon_prefix" type="number" class="validate">
-              </div>  
-              <div class="col s12 m3 l3">
-                <label for="icon_prefix">Fecha de fechas</label>
+  
+              <div class="col s12 m6 l6">
+                <label for="icon_prefix">Fecha de Nacimiento</label>
                 <input type="text" class="datepicker">
-                
-
-                
               </div>
 
               <div class="col s12 m6 l6  file-field input-field">
@@ -1331,6 +1621,7 @@
 
                 <script type="text/javascript">
                 $(document).ready(function() {
+                    $('.tooltipped').tooltip({delay: 50});
 
                     $('select').material_select();
 
